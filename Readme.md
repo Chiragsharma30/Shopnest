@@ -1,29 +1,31 @@
 #  ShopNest – Full Stack E-Commerce Platform
 
-ShopNest is an Amazon-inspired full-stack e-commerce web application built using the MERN stack. It provides users with a convenient shopping experience to explore products, manage shopping carts, save wishlist items, and place orders.
+ShopNest is a full-stack e-commerce web application developed using the MERN stack. It provides a user-friendly platform where customers can browse products, explore product details, manage their shopping carts, maintain wishlists, and place orders.
 
-The platform also includes an admin panel for product and order management.
+The application also includes an admin panel that allows administrators to manage products and customer orders.
 
-## ✨ Features
+##  Features
 
 ###  User Features
 - User registration and login
 - Browse and explore products
-- View product details
-- Add products to cart
-- Update cart quantities
-- Add and remove wishlist items
-- Place orders
+- View detailed product information
+- Add products to shopping cart
+- Update product quantities
+- Add and remove products from wishlist
+- Place customer orders
 - View order history
 - Track order status
 
 ###  Admin Features
 - Admin dashboard
-- Add, update, and delete products
+- Add new products
+- Update existing products
+- Delete products
 - View customer orders
-- Update order statuses
+- Manage and update order statuses
 
-##  Tech Stack
+## Technology Stack
 
 **Frontend**
 - React.js
@@ -48,7 +50,7 @@ The platform also includes an admin panel for product and order management.
 - Vercel
 - Render
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ShopNest/
@@ -73,9 +75,18 @@ ShopNest/
 └── README.md
 ```
 
-##  Project Objective
+## 🎯 Project Objective
 
-ShopNest demonstrates practical full-stack development concepts, including frontend development, backend API development, database integration, authentication, shopping cart management, wishlist functionality, and order processing.
+The objective of ShopNest is to develop a complete e-commerce application while implementing practical full-stack development concepts such as:
+
+- Frontend development
+- Backend API development
+- Database integration
+- User authentication and authorization
+- Product management
+- Shopping cart and wishlist functionality
+- Order processing and tracking
+- Admin dashboard management
 
 ##  Author
 
