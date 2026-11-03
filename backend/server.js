@@ -128,7 +128,10 @@ app.get("/api/test-users/:id", async (req, res) => {
       });
     }
 
-    res.json({ success: true, data: user });
+    res.json({
+      success: true,
+      data: user,
+    });
   } catch (error) {
     res.status(400).json({
       success: false,
@@ -196,3 +199,12 @@ app.delete("/api/test-users/:id", async (req, res) => {
 
 // Export Express app for Vercel
 module.exports = app;
+
+// Start server locally or on Render
+if (require.main === module) {
+  const PORT = process.env.PORT || 5000;
+
+  app.listen(PORT, () => {
+    console.log(`ShopNest backend running on port ${PORT}`);
+  });
+}
